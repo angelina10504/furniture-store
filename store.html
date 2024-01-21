@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="script.js" defer></script>
+  <title>store</title>
+</head>
+<body>
+        <div class="searchbox">
+            <div class="Rectangle" >
+                <img class="Searchicon" src="searchicon.png" >
+                <div class="Search">search</div>
+            </div>
+        </div>
+        <nav class="navigation">
+            <button class="button" id="show-login" >log in   |</button>
+            <a href="#" >help   |</a>
+            <a href="#">bag  </a>
+        </nav>
+        <div class="popup">
+            <div class ="close-btn">&times;</div>
+            <div class="form">
+                <h2 class="logintxt">log in</h2>
+                <div class="inputBox">
+                    <input type="text" name="email" required="required">
+                    <span>email</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="password" required="password">
+                    <span>password</span>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" name="" value="Log In">
+                </div>
+                <h3 class="signup">dont have an account? sign up</h3>
+            </div>
+        </div>
+        <div id="overlay"></div>
+        <div id="menu-container">
+            <div id="menu" onclick="onClickMenu()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            <ul class="nav" id="nav">
+                <li> <a href="#">home</a></li>
+                <li> <a href="#">category</a></li>
+                <li> <a href="#">offers</a></li>
+                <li> <a href="#">new!</a></li>
+                <li> <a href="#">check out</a></li>
+                <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
